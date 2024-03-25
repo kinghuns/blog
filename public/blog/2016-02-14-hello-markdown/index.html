@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=5885&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>A Plain Markdown Post | My New Blog Space</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <h1>My New Blog Space</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/blog/">Blog</a>
+    </li>
+    <li>
+      <a href="/docs/">Docs</a>
+    </li>
+    <li>
+      <a href="/search/">Search</a>
+    </li>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+
+  </header>
+  <main>
+    
+  <h1>A Plain Markdown Post</h1>
+
+  
+  
+  <time datetime="2016-02-14T00:00:00&#43;00:00">February 14, 2016</time>
+
+  <h2 id="sample-text">Sample Text</h2>
+<h3 id="third-level-header">Third-level header</h3>
+<h4 id="fourth-level-header">Fourth-level header</h4>
+<p>A paragraph (with a footnote):</p>
+<p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore <em>magna aliqua</em>. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+sunt in culpa qui officia deserunt mollit anim id est laborum.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>* * *</p>
+<p>A blockquote (a gray bar at the left and lightgray background):</p>
+<blockquote>
+<p>Quisque mattis volutpat lorem vitae feugiat. Praesent porta est quis porta
+imperdiet. Aenean porta, mi non cursus volutpat, mi est mollis libero, id
+suscipit orci urna a augue. In fringilla euismod lacus, vitae tristique massa
+ultricies vitae. Mauris accumsan ligula tristique, viverra nulla sed, porta
+sapien. Vestibulum facilisis nec nisl blandit convallis. Maecenas venenatis
+porta malesuada. Ut ac erat tortor. Orci varius natoque penatibus et magnis
+dis parturient montes, nascetur ridiculus mus. Nulla sodales quam sit amet
+tincidunt egestas. In et turpis at orci vestibulum ullamcorper. Aliquam sed
+ante libero. Sed hendrerit arcu lacus.</p>
+<p>&mdash; by Someone</p>
+</blockquote>
+<p>A full-width piece of syntax-highlighted code with a drop-shadow effect:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#75715e">// right-align a quote footer if it starts with ---
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>[...document.<span style="color:#a6e22e">getElementsByTagName</span>(<span style="color:#e6db74">&#39;blockquote&#39;</span>)].<span style="color:#a6e22e">forEach</span>(<span style="color:#a6e22e">quote</span> =&gt; {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">el</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">quote</span>.<span style="color:#a6e22e">lastElementChild</span>;
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">el</span><span style="color:#f92672">?</span>.<span style="color:#a6e22e">tagName</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#39;P&#39;</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#e6db74">/^(—|---)/</span>.<span style="color:#a6e22e">test</span>(<span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">textContent</span>)) <span style="color:#a6e22e">el</span>.<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">textAlign</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;right&#39;</span>;
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><p>A full-width table:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Sepal.Length</th>
+<th style="text-align:right">Sepal.Width</th>
+<th style="text-align:right">Petal.Length</th>
+<th style="text-align:right">Petal.Width</th>
+<th style="text-align:left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">5.1</td>
+<td style="text-align:right">3.5</td>
+<td style="text-align:right">1.4</td>
+<td style="text-align:right">0.2</td>
+<td style="text-align:left">setosa</td>
+</tr>
+<tr>
+<td style="text-align:right">4.9</td>
+<td style="text-align:right">3.0</td>
+<td style="text-align:right">1.4</td>
+<td style="text-align:right">0.2</td>
+<td style="text-align:left">setosa</td>
+</tr>
+<tr>
+<td style="text-align:right">4.7</td>
+<td style="text-align:right">3.2</td>
+<td style="text-align:right">1.3</td>
+<td style="text-align:right">0.2</td>
+<td style="text-align:left">setosa</td>
+</tr>
+<tr>
+<td style="text-align:right">4.6</td>
+<td style="text-align:right">3.1</td>
+<td style="text-align:right">1.5</td>
+<td style="text-align:right">0.2</td>
+<td style="text-align:left">setosa</td>
+</tr>
+<tr>
+<td style="text-align:right">5.0</td>
+<td style="text-align:right">3.6</td>
+<td style="text-align:right">1.4</td>
+<td style="text-align:right">0.2</td>
+<td style="text-align:left">setosa</td>
+</tr>
+<tr>
+<td style="text-align:right">5.4</td>
+<td style="text-align:right">3.9</td>
+<td style="text-align:right">1.7</td>
+<td style="text-align:right">0.4</td>
+<td style="text-align:left">setosa</td>
+</tr>
+</tbody>
+</table>
+<p>An image (automatically centered):</p>
+<p><img src="https://slides.yihui.org/gif/happy-elmo.gif" alt="Happy Elmo"></p>
+<p>A math equation (render by KaTeX):</p>
+<p><code>$$|x| = \begin{cases} x &amp; \text{if } x \geq 0 \\ -x &amp; \text{if } x &lt; 0  \end{cases}$$</code></p>
+<p>How about <code>Ctrl + C</code> and <code>Ctrl + V</code>?</p>
+<h2 id="another-section">Another Section</h2>
+<p>Looks good?</p>
+<p>Hope you will enjoy it.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;m sure you are bored by the text here.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/blogdown/">Blogdown</a></li>
+        <li><a href="/tags/markdown/">Markdown</a></li>
+        <li><a href="/tags/katex/">KaTeX</a></li>
+        <li><a href="/tags/pandoc/">Pandoc</a></li>
+        <li><a href="/tags/rstudio/">RStudio</a></li>
+    </ul>
+  </div>
+
+
+  </main>
+  <footer>
+    <p>Copyright 2024. All rights reserved.</p>
+
+  </footer>
+</body>
+</html>
